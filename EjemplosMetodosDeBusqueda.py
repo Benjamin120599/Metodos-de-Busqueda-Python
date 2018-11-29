@@ -72,4 +72,6 @@ while(opcion != 10):
             print("EL dato si esta")
         else:
             print("El dato no esta")
+    elif(opcion == 10):
+        print("Saliendo...")
         
