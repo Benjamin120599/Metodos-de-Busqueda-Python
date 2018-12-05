@@ -103,7 +103,7 @@ arreglo1 = mb.vector100(None)
 mb.mostrarVector(None, arreglo1)
 
 opcion = 0
-unaLista = {1, 2, 35, 76, 80, 110, 123, 340, 341, 500}
+unaLista = [1, 2, 35, 76, 80, 110, 123, 340, 341, 500]
 
 while(opcion != 10):
     
@@ -134,7 +134,7 @@ while(opcion != 10):
         print
         datoBuscar = int(raw_input("Ingrese el dato a buscar: "))
         
-        print("El dato se encontro en la posicion: "+mb.busquedaBinaria(None, unaLista, datoBuscar))
+        print("El dato se encontro en la posicion: "+str(mb.busquedaBinaria(None, unaLista, datoBuscar)+1))
     
     elif(opcion == 3):
         
